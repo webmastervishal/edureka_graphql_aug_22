@@ -1,10 +1,25 @@
 Module 7 : Graphql
 
-Client side extention: https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm
+Apollo Client side chrome extention: https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm
 
 Install packages: 
 1) npm install @apollo/client graphql
 
 
-Graphql server: 
-Graphql client (react code) : 
+Graphql server: https://github.com/webmastervishal/graphqlFakeAPI
+Graphql client (react code) : https://github.com/webmastervishal/edureka_graphql_aug_22
+
+
+Running graphql server locally
+i) First clone the graphql server repository locally
+ii) Then inside the folder run npm install
+iii) After that run "npm start:api"
+    this will start api server on port 8900
+iv) run "npm start"
+    this will start graphql server on port 4000
+v) To access graphiql go to http://locahost:4000/graphql
+
+Running client locally
+i) clone the graphql client code locally
+ii) inside folder run npm install
+iii) run "npm start" and this will open web application in the browser
